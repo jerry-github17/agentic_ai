@@ -1,6 +1,5 @@
 
-# Autonomous AI Agent Summary
-
+# Autonomous AI Agent System Design Generator
 A **Python-based Autonomous AI Agent** using **FastAPI** that:
 
 * Accepts a natural language request through `POST /agent`
@@ -16,8 +15,7 @@ The focus is **autonomous planning**, modular engineering, and clean software ar
 
 # Final Use Case
 
-We decided **NOT** to build a generic Technical Research Report.
-Instead, the agent generates a **System Design Report**.
+The agent generates a **System Design Report**.
 
 Example requests:
 * Design a scalable chat system
@@ -46,7 +44,6 @@ We intentionally chose a **single autonomous agent** instead of a multi-agent sy
 
 * Simpler
 * Easier to explain
-* Fits a 60-minute assignment
 * Easier to maintain
 
 Workflow:
